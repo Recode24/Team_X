@@ -35,7 +35,8 @@ H = '\x1b[1;92m' # HIJAU.
 K = '\x1b[1;93m' # KUNING.           
 B = '\x1b[1;94m' # BIRU.                 
 U = '\x1b[1;95m' # UNGU.               
-O = '\x1b[1;96m' # BIRU MUDA.     
+O = '\x1b[1;96m' # BIRU MUDA.
+0 = '\x1b[1;96m' # ORANGE     
 N = '\x1b[0m'    # WARNA MATI     
 
 ### GLOBAL NAMA ###
@@ -91,12 +92,11 @@ def jalan(z):
 def logo():
 	os.system("clear")
 	print("""%s
- ___________          _____ _____________________
- \_   _____/         /     \\______   \_   _____/
-  |    __)  ______  /  \ /  \|    |  _/|    __)  
-  |     \  /_____/ /    Y    \    |   \|     \   
-  \___  /          \____|__  /______  /\___  /   
-      \/                   \/       \/     \/      """%(N))
+ ______                        _  __
+ /_  __/__  ____ _____ ___     | |/ /
+  / / / _ \/ __ `/ __ `__ \    |   /
+ / / /  __/ /_/ / / / / / /   /   |
+/_/  \___/\__,_/_/ /_/ /_/   /_/|_|      """%(N))
    
 ### BAGIAN LOGIN ###
 def tokenz():
@@ -199,7 +199,7 @@ def menu():
     	jalan(" [✓] berhasil menghapus token ")
     	exit()
     else:
-    	jalan(" [!] pilih jawaban dengan bener ! ")
+    	jalan(" [!] pilih jawaban dengan bener Dan Teliti! ")
     	menu() 
     
 ### DUMP PUBLIK ###
@@ -302,7 +302,7 @@ def cekhasil():
 		os.system("cat OK/%s"%(file))
 		raw_input("\n [*] tekan enter untuk kembali ke menu")
 		menu()
-	elif anjg == "2":
+	elif Goblk == "2":
 		dirs = os.listdir("CP")
 		print("")
 		for file in dirs:
