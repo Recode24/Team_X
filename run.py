@@ -91,6 +91,7 @@ def jalan(z):
 def logo():
 	os.system("clear")
 	print("""%s
+	
  ______                        _  __
  /_  __/__  ____ _____ ___     | |/ /
   / / / _ \/ __ `/ __ `__ \    |   /
@@ -106,6 +107,7 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
+		
 		print(" %s[*] Author      : Team_X By DarckCode."%(N))
 		print(" [*] Github      : https://github.com/Team_X")
 		print(" [*] ---------------------------------------------")
