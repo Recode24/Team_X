@@ -24,5 +24,3 @@ python2 run.py
 
 
 
-
-RECODE BOLEH ANJING JNGN
