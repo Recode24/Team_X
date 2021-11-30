@@ -4,7 +4,7 @@ pkg update && pkg upgrade
 
 pkg install git
 
-pkg install fulture
+pkg install future
 
 pkg install python2
 
