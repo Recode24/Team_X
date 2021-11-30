@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# author : Fall Xavier
+# author : Team_X
 
 ### IMPORT MODULE ###
 import os, sys, re, time, requests, calendar, random,json
@@ -35,8 +35,7 @@ H = '\x1b[1;92m' # HIJAU.
 K = '\x1b[1;93m' # KUNING.           
 B = '\x1b[1;94m' # BIRU.                 
 U = '\x1b[1;95m' # UNGU.               
-O = '\x1b[1;96m' # BIRU MUDA.
-0 = '\x1b[1;96m' # ORANGE     
+O = '\x1b[1;96m' # BIRU MUDA.    
 N = '\x1b[0m'    # WARNA MATI     
 
 ### GLOBAL NAMA ###
@@ -199,7 +198,7 @@ def menu():
     	jalan(" [✓] berhasil menghapus token ")
     	exit()
     else:
-    	jalan(" [!] pilih jawaban dengan bener Dan Teliti! ")
+    	jalan(" [!] pilih jawaban dengan benar Dan Teliti! ")
     	menu() 
     
 ### DUMP PUBLIK ###
