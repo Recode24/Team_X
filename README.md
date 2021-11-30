@@ -4,7 +4,7 @@ pkg update && pkg upgrade
 
 pkg install git
 
-pkg install python
+pkg install python2
 
 pip2 install requests
 
@@ -16,4 +16,13 @@ git clone https://github.com/Recode24/Team_X
 
 cd Team_X
 
-python run.py
+python2 run.py
+
+
+
+
+
+
+
+
+RECODE BOLEH ANJING JNGN
