@@ -16,6 +16,8 @@ pip2 install bs4
 
 git clone https://github.com/Recode24/Team_X
 
+ls
+
 cd Team_X
 
 python2 run.py
