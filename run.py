@@ -106,7 +106,7 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
-		print(" %s[*] Author      : Team_X Dominic Gremory XV."%(N))
+		print(" %s[*] Author      : Team_X By DarckCode."%(N))
 		print(" [*] Github      : https://github.com/Team_X")
 		print(" [*] ---------------------------------------------")
 		print(" [*] Bergabung   : %s"%(tgl))
@@ -157,7 +157,7 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print(" %s[*] Author     : Team_X Dominic Gremory XV."%(N))
+    print(" %s[*] Author     : Team_X DarckCode."%(N))
     print(" [*] Github     : https://github.com/Team_X")
     print(" [*] --------------------------------------------")
     print(" [*] Bergabung  : %s"%(tgl))
